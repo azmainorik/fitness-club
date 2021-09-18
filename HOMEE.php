@@ -31,22 +31,22 @@ body{font-family:arial;}
        height:60px;
        list-style-type: none;
        margin-top: 60px;
-	   margin-bottom: 60px;	  
+       margin-bottom: 60px;	  
        padding: 35px;      
-	   justify-content: space-between;
+       justify-content: space-between;
        background-color: #FFFFFF;      
        border-style: outset;
        border-color: #2F4F4F;
-	   overflow: auto;
-	   display: flex;
+       overflow: auto;
+       display: flex;
 	   
      }    
 
      li a 
           {
             width: 180px;            
-			margin: 1px;
-			display: inline;
+	    margin: 1px;
+	    display: inline;
             padding: 17px 17px;
             color:#000000 ;
             font-size: 38px;
@@ -74,7 +74,7 @@ body{font-family:arial;}
              display: inline-block;
              border: 1px solid #ccc;
              box-sizing: border-box;
-			 font-size: 16px;
+	     font-size: 16px;
         }
 		
 		
@@ -86,12 +86,12 @@ body{font-family:arial;}
           padding: 16px 32px;
           text-align: center;
           font-size: 16px;
-		  position: absolute;
+	  position: absolute;
           left: 600px;          
-		  bottom:-80px;
+	  bottom:-80px;
           margin: 4px 2px;
           transition: 0.3s;
-		  font-family: Arial Black;
+	  font-family: Arial Black;
          }
 
        .btn:hover {
@@ -107,19 +107,19 @@ body{font-family:arial;}
           padding: 16px 32px;
           text-align: center;
           font-size: 16px;
-  		  position: absolute;
+  	  position: absolute;
           left: 750px;          
-		  bottom:-80px;
+	  bottom:-80px;
           margin: 4px 2px;
           transition: 0.3s;
-		  font-family: Arial Black;
+	  font-family: Arial Black;
          }
 		 
 		 
 
        .btn2:hover {
             
-			background-color: #000000;
+	    background-color: #000000;
             color: white;		   
            }
 		   
@@ -128,16 +128,16 @@ body{font-family:arial;}
 		   
 					
 	
-    div#inputFiled input{padding:2px;margin-bottom:5px;width:150px}
+     div#inputFiled input{padding:2px;margin-bottom:5px;width:150px}
     .selectList {padding:2px;margin-bottom:5px;width:150px}
     .SearchTitle{background:#FFFFFF;width:200px}
-     .SearchTitle h2{padding:5px;color:#2F4F4F;}
+    .SearchTitle h2{padding:5px;color:#2F4F4F;}
     .submitButton input{
-		 position: absolute;        
-          left: 610px;          
-		  bottom:-130px;		 
+    position: absolute;        
+    left: 610px;          
+    bottom:-130px;		 
 		
-		background: black;color:#FFFFFF;padding:9px;width:125px
+    background: black;color:#FFFFFF;padding:9px;width:125px
 		}
     .information{color:#000000}
     .go{color:white}
@@ -186,7 +186,7 @@ body{font-family:arial;}
    <h2><?php echo "WELCOME!!!  ". $_SESSION['name'] . "......." ?></h2>  
    
    </div>
-    <?php } 	   
+   <?php } 	   
   
 ?>
  
@@ -203,16 +203,16 @@ body{font-family:arial;}
     } 
 	else		
 		{
-		 echo '<a href="registration.php" class="btn" name="Sign-Up" >Sign-Up</a>
+	  echo '<a href="registration.php" class="btn" name="Sign-Up" >Sign-Up</a>
           <a href="login.php" class="btn2" name="login">Log-In</a>';			
 		
 		}
 		
  	if (isset($_POST['logout'])) { 
 	
-	    session_unset();
+        session_unset();
         session_destroy();  
-		header('location: HOMEE.php');
+	header('location: HOMEE.php');
  
 	}
 	
