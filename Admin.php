@@ -31,14 +31,14 @@ body{font-family:arial;}
        height:60px;
        list-style-type: none;
        margin-top: 60px;
-	   margin-bottom: 60px;	  
+       margin-bottom: 60px;	  
        padding: 35px;      
-	   justify-content: space-between;
+       justify-content: space-between;
        background-color: #FFFFFF;      
        border-style: outset;
        border-color: #2F4F4F;
-	   overflow: auto;
-	   display: flex;
+       overflow: auto;
+       display: flex;
 	   
      }    
 
@@ -46,8 +46,8 @@ body{font-family:arial;}
       li a 
           {
             width: 180px;            
-			margin: 1px;
-			display: inline;
+	    margin: 1px;
+	    display: inline;
             padding: 17px 17px;
             color:#000000 ;
             font-size: 38px;
@@ -66,9 +66,9 @@ body{font-family:arial;}
      }  
 	  
 	  #bus {
-       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-       border-collapse: collapse;
-       width: 100%;
+           font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+           border-collapse: collapse;
+           width: 100%;
 	   bottom:10%;
 	   background-size: 100px 80px;
 	   opacity:0.9;
@@ -80,7 +80,7 @@ body{font-family:arial;}
 	   {
            border: 1px solid black;
            border-collapse: collapse;
-		   background-color: #f1f1c1;
+	   background-color: #f1f1c1;
        }
 	   
        th, td {
@@ -90,10 +90,10 @@ body{font-family:arial;}
 	 
 	 
 
-    div#inputFiled input{padding:2px;margin-bottom:5px;width:150px}
+     div#inputFiled input{padding:2px;margin-bottom:5px;width:150px}
     .selectList {padding:2px;margin-bottom:5px;width:150px}
     .SearchTitle{background:#FFFFFF;width:200px}
-     .SearchTitle h2{padding:5px;color:#2F4F4F;}
+    .SearchTitle h2{padding:5px;color:#2F4F4F;}
     .submitButton input{background: #FFFFFF;color:#000000;padding:9px;width:125px}
     .information{color:#000000}
     .go{color:white}
@@ -112,9 +112,9 @@ body{font-family:arial;}
 
 <ul>
  <li><a href="HOMEE.php">Home</a></li>
-  <li><a href="login.php">Membership Fees</a></li>  
-  <li><a href="login.php">Instrutor & Trainer</a></li>
-  <li><a href="login.php">Membership FROM</a></li>  
+ <li><a href="login.php">Membership Fees</a></li>  
+ <li><a href="login.php">Instrutor & Trainer</a></li>
+ <li><a href="login.php">Membership FROM</a></li>  
  
 </ul>
 
@@ -130,16 +130,12 @@ body{font-family:arial;}
 <h2><?php echo "WELCOME ADMIN!!!  "?></h2>
 
 
-</div>
-
-
-
-				
+   </div>
  </div>
  <br/>
-<br/>
-<br/>
-<br/>
+ <br/>
+ <br/>
+ <br/>
  <div>
  <div> 
  </div>
