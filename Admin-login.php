@@ -32,9 +32,6 @@ if (isset($_POST['LogIn'])) {
   	}else {
   		die( "Wrong username/password combination");
   	}
-	
-	
-	
   }
 } ?>
 
@@ -58,30 +55,27 @@ body{font-family:arial;}
 	    margin-left: 500px;
 	 }  
 	
-		
-
-
      ul
      {		 
        height:60px;
        list-style-type: none;
        margin-top: 60px;
-	   margin-bottom: 60px;	  
+       margin-bottom: 60px;	  
        padding: 35px;      
-	   justify-content: space-between;
+       justify-content: space-between;
        background-color: #FFFFFF;      
        border-style: outset;
        border-color: #2F4F4F;
-	   overflow: auto;
-	   display: flex;
+       overflow: auto;
+       display: flex;
 	   
      }    
 
      li a 
           {
             width: 180px;            
-			margin: 1px;
-			display: inline;
+	    margin: 1px;
+            display: inline;
             padding: 17px 17px;
             color:#000000 ;
             font-size: 38px;
@@ -102,20 +96,20 @@ body{font-family:arial;}
 	 
 
         input[type=text], input[type=password] 
-		{
+	{
              width: 90%;
              padding: 12px 20px;
              margin: 8px 0;
              display: inline-block;
              border: 1px solid #ccc;
              box-sizing: border-box;
-			 font-size: 16px;
+	     font-size: 16px;
         }
 		
 	
 			
 	
-	.selectList {padding:2px;margin-bottom:5px;width:150px}
+    .selectList {padding:2px;margin-bottom:5px;width:150px}
     .SearchTitle{background:#FFFFFF;width:200px}
     .SearchTitle h2{padding:5px;color:#2F4F4F;}
     .submitButton input{background: #FFFFFF;color:#000000;padding:9px;width:125px}
